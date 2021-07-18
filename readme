@@ -4,7 +4,7 @@ cd wordcount-project/
 python3 manage.py runserver
 
 
-git terminal instructions:
+1. git terminal instructions:
 cd Desktop/
 cd wordcount-project/
 git init *starts a git session
@@ -19,3 +19,11 @@ git remote add origin https://github.com/ryan-bradley-cowan/wordcount-project.gi
 git push -u origin master
 git config --global user.name "Ryan Bradley Cowan"
 git config --global user.email ryan.bradley.cowan@gmail.com
+
+
+2. create virtual environment
+pip3 install virtualenv
+cd Desktop/
+virtualenv myvenv
+source myvenv/bin/activate *to navigate into virtual environment
+pip install django
