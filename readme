@@ -4,7 +4,7 @@ cd wordcount-project/
 python3 manage.py runserver
 
 
-git terminal
+git terminal instructions:
 cd Desktop/
 cd wordcount-project/
 git init *starts a git session
@@ -12,3 +12,10 @@ git status *tells which files are not committed
 git add -A *gets files ready to commit
 git status
 git commit -m "This is my first commit" *commits file
+
+create github repo
+
+git remote add origin https://github.com/ryan-bradley-cowan/wordcount-project.git
+git push -u origin master
+git config --global user.name "Ryan Bradley Cowan"
+git config --global user.email ryan.bradley.cowan@gmail.com
