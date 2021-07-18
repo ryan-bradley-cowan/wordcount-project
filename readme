@@ -7,6 +7,8 @@ python3 manage.py runserver
 git terminal
 cd Desktop/
 cd wordcount-project/
-git init
+git init *starts a git session
+git status *tells which files are not committed
+git add -A *gets files ready to commit
 git status
-git add -A
+git commit -m "This is my first commit" *commits file
