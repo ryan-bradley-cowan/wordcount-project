@@ -1,0 +1,12 @@
+cd Desktop/
+django-admin startproject wordcount-project
+cd wordcount-project/
+python3 manage.py runserver
+
+
+git terminal
+cd Desktop/
+cd wordcount-project/
+git init
+git status
+git add -A
