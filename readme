@@ -1,10 +1,11 @@
+1. start website dev mode
 cd Desktop/
 django-admin startproject wordcount-project
 cd wordcount-project/
 python3 manage.py runserver
 
 
-1. git terminal instructions:
+2. git terminal instructions:
 cd Desktop/
 cd wordcount-project/
 git init *starts a git session
@@ -21,7 +22,7 @@ git config --global user.name "Ryan Bradley Cowan"
 git config --global user.email ryan.bradley.cowan@gmail.com
 
 
-2. create virtual environment
+3. create virtual environment (this should be activated before doing step 1 and 2)
 pip3 install virtualenv
 cd Desktop/
 virtualenv myvenv
